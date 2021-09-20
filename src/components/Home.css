@@ -1,0 +1,89 @@
+.home-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #0d6efd;
+  margin-bottom: 1rem;
+}
+
+.titles {
+  display: flex;
+  color: #0d6efd;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.titles h1 {
+  font-weight: 800;
+}
+
+.undline {
+  width: 200px;
+  border-radius: 5rem;
+  height: 4px;
+  background-color: #0d6efd;
+}
+.card {
+  border-radius: 1rem !important;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+.cardimg {
+  display: flex;
+  justify-content: center;
+  font-size: 5rem;
+  color: #0d6efd;
+}
+
+.cardbody {
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.cardbody {
+  margin-top: 1rem;
+  background-color: #0d6efd;
+  color: white;
+  padding: 0.5rem 1rem;
+}
+
+.cardbody h1 {
+  font-size: 1.5rem;
+}
+
+.home-center h1 span {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.addpost {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 2rem;
+}
+
+thead,
+tbody {
+  text-align: center;
+  vertical-align: middle !important;
+}
+
+thead {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.tdflex {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* form {
+  text-align: center;
+} */
+
+label {
+  display: block;
+}
