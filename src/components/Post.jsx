@@ -58,7 +58,7 @@ function Post() {
                             <Card.Text>
                                 {comment.body}
                             </Card.Text>
-                            <Button variant="primary">Edit comment</Button>
+                            
                         </Card.Body>
                     </Card>
 
